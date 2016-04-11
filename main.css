@@ -1,0 +1,19 @@
+body{
+	font-family: Helvetica,Arial,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","tohoma,sans-serif";
+}
+.messages{
+	height: 600px;overflow-y: auto;
+}
+.status{
+	text-align: center;font-size: x-large;font-weight: 600;margin-top: 50px;
+}
+@media screen and (max-height:  800px){
+	.messages{
+		height: 350px;
+	}
+}
+@media screen and (max-height:  600px){
+	.messages{
+		height: 250px;
+	}
+}
