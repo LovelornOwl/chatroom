@@ -20,7 +20,7 @@
 		}
 	};
 
-	var socket = io.connect('http://127.0.0.1:3000');
+	var socket = io.connect('http://127.0.0.1:8080');
 	if(socket !== undefined){
 		// Output
 		socket.on('output', function(data){

@@ -1,7 +1,7 @@
 var mongo = require('mongodb').MongoClient;
-var client = require('socket.io').listen(3000).sockets;
+var client = require('socket.io').listen(8080).sockets;
 
-mongo.connect('mongodb://127.0.0.1/mongochat',function(e,db){
+mongo.connect('mongodb://127.0.0.1/chatroom',function(e,db){
 	if(e){
 		throw e;
 	}
